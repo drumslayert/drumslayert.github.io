@@ -1,6 +1,6 @@
 ##IRON YARD WEEK 1
 
-####The wonderful world of `Javascript`
+####Delving into the wonderful world of `Javascript`
 
  Started out my first week learning the 4 primitive types in Javascript. The first one being `Null` which only has one vaule of "intetionally empty". The second being `Boolean` which only has two values, consisting of either `true` or `false`. The third one being `number` - 3.1459. All numbers in `Javascript` are floats by default. Then lastly a  `string`, which is a word, thing or string of words inside of quotes. When I enter bare words into a computer it does not understand it. There is an exception because, any bare word after var will be an identifier. Operators always have to oporans and an expression is anything I can value. An expression is also the result of an operation.
 
