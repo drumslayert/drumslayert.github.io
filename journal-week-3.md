@@ -1,3 +1,5 @@
+##Journal week 3 outline
+
 ###CSS 
 
  * properties
