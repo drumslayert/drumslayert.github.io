@@ -14,4 +14,4 @@ Over the years Ive realized that if when I really want to learn something and se
    * https://www.khanacademy.org/youcanlearnanything
    * https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve
    
-   
+  
