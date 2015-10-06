@@ -1,0 +1,26 @@
+{
+  "name": "drumslayert.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha",
+   "sass": "node-sass src/scss/main.scss --output src/css/",
+    "bs": "browser-sync start --server --startPath 'index.html' --files='index.html, js/*.js, css/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drumslayert/drumslayert.github.io.git"
+  },
+  "author": "Terry Calhoun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drumslayert/drumslayert.github.io/issues"
+  },
+  "homepage": "https://github.com/drumslayert/drumslayert.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.3"
+  }
+}
