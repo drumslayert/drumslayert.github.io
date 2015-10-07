@@ -1,7 +1,11 @@
-Im still deciding on an official topicbut here are a few ideas
+####Tools with Terry
 
-* How to use Postman!
+Today were going to talk a little about the command line. I'm going to teach you a few valuable tricks that could help smooth over a rough days work in the terminal. For example, have you ever been working in command line and you forgot a specific command you put in earlier, but your working at a fast pace and you dont have time to hit the up arrow a hundred times to look through previous typed commands. Maybe you started typing out a long mess and you just need to just start over. to be continued....
 
-* How to identify the difference between local and global scope
+1. History - will give you a list of the history of commands you typed. 
 
-* learning some new commands in terminal 
+2. Ctrl+U - clears the entire line so you can type in a completely new command.
+
+3. to be continued...
+
+
