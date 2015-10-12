@@ -1,0 +1,24 @@
+{
+  "name": "drumslayert.github.io",
+  "version": "0.0.2",
+  "homepage": "https://github.com/drumslayert/drumslayert.github.io",
+  "authors": [
+    "drumslayert <ddc@terrymcalhoun.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
