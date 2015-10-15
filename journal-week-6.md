@@ -1,4 +1,4 @@
-## Halftime show
+## My halftime show
 
  Halftime week in some ways was a pleasant week, taking time to recap on everything weve been learning the past 6 weeks. On the filp-side though I'm just exhausted! My mind just wants a break from the chaos. I moved into a new level of just being tired all the time this week. I feel like I just want the final project to be here already so I can just work on one thing for a change instead of 50. At the same time, I can appreciate all the differnet things we are learning and getting are feet wet in, knowing it will come in handy later in "the real world". 
  
