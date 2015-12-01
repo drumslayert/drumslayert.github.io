@@ -9,42 +9,31 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
       <header>
         <div class="wrap">
-          <h1>Drumslayert's Journey</h1>
+          <h1>Drumslayert</h1>
           <nav>
-            <a href="#"></a>
-            <a href="#"></a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Blog">Blog</a>
+            <a href="#">Something cool</a>
           </nav>
         </div>
       </header>
-      <section class="image"></section>
-      <section class="column">
-        <div class="wrap">
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-          <section><a href="#"><div><img src="../" /></div></a></section>
-        </div>
-      </section>
+      <main class="main-container" ng-app="tmc" ng-controller="MainController">
+        <ng-view />
+    </main>
       <footer>
         <span></span>
       </footer>
-
-        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <!-- bower:js -->
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
