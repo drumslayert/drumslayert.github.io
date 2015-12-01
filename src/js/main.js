@@ -7,3 +7,11 @@ $('.my-button').click(
 		}
 	);
 });
+// $(document).ready(function(){
+//     $("div a").mouseenter(
+//       function(){$(this).siblings("p:first").addClass("active");},
+//     $("div a").mouseleave(
+//       function(){$(this).siblings("p:first").removeClass("active");}
+//     )
+//   );
+// });

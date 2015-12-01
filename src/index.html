@@ -9,7 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -18,43 +18,24 @@
         <div class="wrap">
           <h1>Drumslayert</h1>
           <nav>
-            <a href="#"></a>
-            <a href="#"></a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Blog">Blog</a>
+            <a href="#">Something cool</a>
           </nav>
         </div>
       </header>
-      <section id="message">
-      <!--  <img src="/src/img/IMG-1226.jpg" max-width="1450px"> -->
-      <div class="empty"></div>
-      <p>My journey so far</p>
-      <h2>read at your own risk</h2>
-      <a href="#" class="my-button">lol</a>
-      <div class="empty2"></div>
-      <div class="grid">
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"/></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"/></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"/></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"/></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-          <section class="col-1-4"><a href="#"><div><img src="http://lorempixel.com/output/350/500/"></div></a></section>
-      </div>
-
-      </section>
+      <main class="main-container" ng-app="tmc" ng-controller="MainController">
+        <ng-view />
+    </main>
       <footer>
         <span></span>
       </footer>
         <!-- bower:js -->
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
         <!-- endbower -->
-        <script src="/bower_components/angular/angular.js"></script>
-        <script src="/bower_components/jquery/dist/jquery.js"></script>
         <script src="js/plugins.js"></script>
-        <script src="/src/js/main.js"></script>
+        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
