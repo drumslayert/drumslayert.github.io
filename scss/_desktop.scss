@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
 // html {
-//   background: url("/img/IMG-1226.jpg") no-repeat center center fixed;
+//   background: url("/src/img/IMG-1226.jpg") no-repeat center center fixed;
 //   -webkit-background-size: cover;
 //   -moz-background-size: cover;
 //   -o-background-size: cover;
@@ -26,7 +26,7 @@
 
 body {
   //  background: rgba(0,0,0,0.5);
-  //  background: url("/img/IMG-1226.jpg");
+  //  background: url("/src/img/IMG-1226.jpg");
    color: #fff;
    font-family: 'lato'
 
@@ -80,9 +80,9 @@ header {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  background: url("/img/IMG-1226.jpg");
+  background: url("/src/img/IMG-1226.jpg");
   // background-repeat: no-repeat;
-  // background: url("/img/IMG-1226.jpg") no-repeat center center fixed;
+  // background: url("/src/img/IMG-1226.jpg") no-repeat center center fixed;
   // -webkit-background-size: cover;
   // -moz-background-size: cover;
   // -o-background-size: cover;
@@ -176,7 +176,7 @@ img {
 	border: none;
 }
 #portfolio {
-  background: url("/img/code.jpg");
+  background: url("/src/img/code.jpg");
   width: 100%;
   display: inline-block;
 }
@@ -309,7 +309,7 @@ img {
   color:#2098d1;
 }
 #resume-png {
-  background: url("/img/resumepng.png");
+  background: url("/src/img/resumepng.png");
   width: 60%;
   text-align: center;
   margin: 0 auto;
@@ -359,7 +359,7 @@ $hex-size: 10em; // Only change size here. Best used with sizes from 5em - 10em.
 
 }
 #blog {
-  background: url("/img/code.jpg");
+  background: url("/src/img/code.jpg");
   width: 100%;
 }
 ol.even {

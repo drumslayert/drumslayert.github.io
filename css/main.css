@@ -1,10 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+
 .grid {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 5em; }
   .grid [class*="col-"] {
     float: left;
     box-sizing: border-box;
-    padding: 1em 0.5em;
+    padding: 2em 0.5em;
     display: block; }
   .grid .col-1-2 {
     width: 50%; }
@@ -487,46 +490,68 @@
   .grid .col-32-32 {
     width: 100%; }
 
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform; }
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1); }
+
 body {
-  background: url("/src/img/IMG-1226.jpg");
   color: #fff;
-  background-repeat: no-repeat; }
+  font-family: 'lato'; }
 
 header {
-  background: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   width: 100%;
-  height: 10ex;
-  margin: 0 auto; }
+  height: 3.5em;
+  margin: 0 auto;
+  font-family: 'lato'; }
   header .wrap {
     margin: 0 auto;
     max-width: 1140px; }
     header .wrap h1 {
-      padding: .2em;
-      display: inline-block;
+      padding: 0.43em;
       margin: 0 auto;
-      margin-top: .6em;
-      font-family: 'Spinnaker', sans-serif;
+      display: inline-block;
       font-size: 28px;
       line-height: 1;
       text-transform: uppercase; }
-    header .wrap nav {
+    header .wrap h1:hover {
+      color: #2098d1; }
+    header .wrap #header {
       float: right;
-      margin-top: 1.1em;
-      padding: .5em; }
-    header .wrap nav a {
+      padding: .2em;
+      font-size: 1.4em; }
+    header .wrap #header a {
       float: right;
-      color: #fff;
+      color: #000;
       text-decoration: none;
       margin: 8px;
       display: inline-block; }
+    header .wrap #header a:hover {
+      color: #2098d1; }
+
+.main-container {
+  min-width: 100%;
+  margin: 0 auto; }
 
 #message {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  background: #7f7f7f;
-  background: rgba(0, 0, 0, 0.5);
+  background: url("/src/img/IMG-1226.jpg");
+  background: black;
   overflow: auto; }
   #message .empty {
     height: 200px;
@@ -544,37 +569,247 @@ header {
     margin: 0; }
   #message h3 {
     text-align: center; }
-  #message .my-button {
-    background-color: transparent;
-    -moz-border-radius: 28px;
-    -webkit-border-radius: 28px;
-    border-radius: 28px;
-    border: 1px solid #fff;
+  #message #my-button {
+    background-color: #fff;
     display: inline-block;
     cursor: pointer;
-    color: #fff;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 19px 49px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #fff; }
-  #message .my-button:hover {
-    background-color: transparent; }
-  #message .my-button:active {
+    color: #000;
+    font-family: 'lato';
+    font-weight: 700;
+    font-size: 3em;
+    padding: 14px 34px;
+    text-decoration: none; }
+  #message #my-button:hover {
+    background-color: #fff;
+    color: #000;
+    font-size: 3em; }
+  #message #my-button:active {
     position: relative;
     top: 1px; }
-  #message .col-1-4 {
+  #message .col-1-3 {
     position: relative; }
-  #message div p {
-    display: none;
-    top: 0;
+  #message .col-1-3 p {
+    display: none; }
+  #message #careday {
+    position: relative;
+    text-align: left; }
+  #message a:hover {
+    opacity: 1;
+    color: #2098d1; }
+  #message .active {
+    display: block;
     bottom: 0;
     left: 0;
-    right: 0;
-    float: left;
-    font-size: 12pt;
-    position: absolute; }
-  #message a:hover {
-    opacity: 1; }
-  #message .active {
-    display: block; }
+    color: red;
+    font-size: 8pt;
+    position: absolute;
+    text-align: left; }
+
+img {
+  border: none; }
+
+#portfolio {
+  background: url("/src/img/code.jpg");
+  width: 100%;
+  display: inline-block; }
+
+#thumbnail img {
+  cursor: pointer;
+  border: 2px #fff solid;
+  border-bottom: 7px #fff solid; }
+
+#large {
+  display: none;
+  position: fixed;
+  background: #FFFFFF;
+  padding: 5px;
+  z-index: 10;
+  min-height: 200px;
+  min-width: 200px;
+  color: #336699; }
+
+#background {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000000;
+  z-index: 1; }
+
+#footer {
+  width: 100%;
+  height: 8em;
+  margin: 0 auto;
+  text-align: center; }
+  #footer p {
+    display: inline;
+    color: #000; }
+    #footer p #github, #footer p #twitter {
+      font-size: 3em;
+      color: #000; }
+    #footer p #github:hover, #footer p #twitter:hover, #footer p #email:hover {
+      color: #2098d1; }
+    #footer p #email {
+      font-size: 3.3em;
+      color: #000; }
+  #footer #contact {
+    margin-top: 1em; }
+  #footer nav {
+    text-align: center;
+    padding: .5em;
+    font-size: 1.4em;
+    border-bottom: 1px solid #000;
+    margin-left: 30%;
+    margin-right: 30%; }
+  #footer nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+    text-align: center; }
+  #footer nav a:hover {
+    color: #2098d1; }
+
+/* Rectangle Out */
+.hvr-rectangle-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.hvr-rectangle-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+  color: white; }
+
+.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+#resume-header a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  height: 3.5em;
+  margin: 0 auto;
+  font-family: 'lato'; }
+
+#resume-header a:hover {
+  color: #2098d1; }
+
+#resume-png {
+  background: url("/src/img/resumepng.png");
+  width: 60%;
+  text-align: center;
+  margin: 0 auto; }
+
+.wrapper {
+  width: 90%;
+  margin-left: 24%;
+  margin-top: 5%;
+  display: inline-block; }
+
+#resume {
+  margin-top: 1em;
+  margin-left: 45%;
+  font-size: 2em; }
+
+#resume a {
+  text-decoration: none;
+  color: #000;
+  padding: .5em; }
+
+#soon {
+  text-align: center;
+  margin-top: 9%;
+  font-size: 6em;
+  font-family: inherit; }
+
+/* ----------------------------------------- */
+.container {
+  width: 1000px;
+  line-height: 1.3;
+  margin-left: 21%;
+  margin-top: 5%; }
+
+#blog {
+  background: url("/src/img/code.jpg");
+  width: 100%; }
+
+ol.even {
+  position: relative;
+  left: 9.09091em;
+  z-index: 0; }
+
+ol.odd {
+  position: relative;
+  margin-top: -6.5%;
+  margin-bottom: -6.5%;
+  z-index: 0; }
+
+#week1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: red;
+  font-size: 4.6em;
+  z-index: 0; }
+
+.hex {
+  position: relative;
+  margin: 1em auto;
+  width: 10em;
+  height: 17em;
+  background: #ccc;
+  transform: rotate(-90deg);
+  display: inline-block;
+  margin-right: 7.69231em;
+  transition: all 150ms ease-in-out; }
+
+.hex:before, .hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: ''; }
+
+.hex:before {
+  transform: rotate(60deg); }
+
+.hex:after {
+  transform: rotate(-60deg); }
+
+.hex:hover {
+  background: #F58787;
+  cursor: pointer; }
