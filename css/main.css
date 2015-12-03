@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
-
 .grid {
   width: 90%;
   margin: 0 auto;
@@ -550,7 +549,7 @@ header {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  background: url("/src/img/IMG-1226.jpg");
+  background: url("/img/IMG-1226.jpg");
   background: black;
   overflow: auto; }
   #message .empty {
@@ -609,7 +608,7 @@ img {
   border: none; }
 
 #portfolio {
-  background: url("/src/img/code.jpg");
+  background: url("/img/code.jpg");
   width: 100%;
   display: inline-block; }
 
@@ -726,7 +725,7 @@ img {
   color: #2098d1; }
 
 #resume-png {
-  background: url("/src/img/resumepng.png");
+  background: url("/img/resumepng.png");
   width: 60%;
   text-align: center;
   margin: 0 auto; }
@@ -761,7 +760,7 @@ img {
   margin-top: 5%; }
 
 #blog {
-  background: url("/src/img/code.jpg");
+  background: url("/img/code.jpg");
   width: 100%; }
 
 ol.even {
