@@ -10,16 +10,8 @@
 $("#my-button, .my-button").click(function() {
     $('html,body').animate({
         scrollTop: $("#footer").offset().top},
-        4000);
+        1000);
 });
-// $(document).ready(function(){
-//      $('body,html').animate({scrollTop: 7000}, 9000);
-// });
-// $(window).scroll(function() {
-//     if ($(this).scrollTop() > 6100) {
-//         $('body,html').animate({scrollTop: 0}, 500);
-//     }
-// });
 
 //backup google fonts
 WebFontConfig = {
