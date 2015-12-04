@@ -96,11 +96,10 @@ header {
      display: block;
    }
 
-  p {
+  #tagline {
     font-size: 4em;
     font-weight: 800;
     margin: 0;
-
   }
 
   h3 {
@@ -322,13 +321,34 @@ img {
 }
 
 
- // blog
+ // About me
 
  #soon {
    text-align: center;
    margin-top: 9%;
    font-size: 6em;
    font-family: inherit;
+ }
+ #me {
+   width: 100%;
+   margin-left: 11%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   img {
+     border-radius: 100%;
+   }
+ }
+ #about-me {
+   width: 60%;
+   margin: 0 auto;
+
+  p {
+   font-size: 2em;
+}
+}
+ #blog {
+   background: #000;
+   width: 100%;
  }
 
 // hex grid
@@ -347,10 +367,7 @@ $hex-size: 10em; // Only change size here. Best used with sizes from 5em - 10em.
   margin-top: 5%;
 
 }
-#blog {
-  background: url("/img/code.jpg");
-  width: 100%;
-}
+
 ol.even {
   position: relative;
   left: ($hex-size / 1.1);
