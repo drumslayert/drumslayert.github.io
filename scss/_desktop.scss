@@ -509,6 +509,12 @@ header .wrap #header {
 }
 }
 @media(max-width:530px){
+  #thumbnail img {
+    cursor: pointer;
+    border: 2px #fff solid;
+    border-bottom: 7px #fff solid;
+    width: 90%;
+  }
   #about-me {
     width: 85%;
     margin: 0 auto;
