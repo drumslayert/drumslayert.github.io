@@ -331,9 +331,8 @@ img {
    font-family: inherit;
  }
  #me {
-   width: 100%;
    margin-left: 6%;
-   margin-top: 4%;
+   margin-top: 2%;
    float: left;
    img {
      border-radius: 100%;
@@ -342,10 +341,10 @@ img {
  #about-me {
    width: 60%;
    margin: 0 auto;
-
+   margin-top: 3em;
   p {
-   font-size: 1.7em;
-  
+   font-size: 1.5em;
+
 }
 }
  #blog {
@@ -477,7 +476,7 @@ header .wrap {
 }
 header .wrap {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1340px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -498,7 +497,7 @@ header  {
 }
 header .wrap {
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1340px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -509,6 +508,43 @@ header .wrap #header {
 
 }
 }
+@media(max-width:530px){
+  #about-me {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3em;
+  }
+  #about-me p {
+    font-size: 1.3em;
+    display: inline-block;
+  }
+  #me {
+    margin-left: 28.5%;
+    margin-top: 6%;
+    /* float: left; */
+    text-align: center;
+}
+   #footer p {
+    font-size: 1em;
+    // display: inline;
+  }
+  #footer p.created-by {
+    display: block;
+  }
+
+  #footer {
+    height: 15em;
+  }
+  #github, #twitter {
+    font-size: 2em;
+  }
+  #email {
+    font-size: 2.2em;
+  }
+  #project-nav {
+      height: 240px;
+  }
+}
 @media(max-width: 400px){
   .grid .col-1-3 {
       width: 100%;
@@ -518,5 +554,39 @@ header .wrap #header {
   border: 2px #fff solid;
   border-bottom: 7px #fff solid;
   width: 75%;
+}
+#about-me {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+#about-me p {
+  font-size: 1.3em;
+  display: inline-block;
+}
+#me {
+    margin-left: 28.5%;
+    margin-top: 6%;
+    /* float: left; */
+    text-align: center;
+}
+#footer p {
+  font-size: 1em;
+
+ }
+#footer p.created-by {
+  display: block;
+}
+#footer {
+  height: 15em;
+}
+#github, #twitter {
+  font-size: 2em;
+}
+#email {
+  font-size: 2.2em;
+}
+#project-nav {
+    height: 240px;
 }
 }
