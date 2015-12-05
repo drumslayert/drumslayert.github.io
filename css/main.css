@@ -617,6 +617,12 @@ img {
   border-bottom: 7px #fff solid;
   width: 95%; }
 
+#thumbnail a {
+  color: #fff; }
+
+#thumbnail a:hover {
+  color: #fff; }
+
 #large {
   display: none;
   position: fixed;
@@ -848,6 +854,35 @@ ol.odd {
 .hex:hover {
   background: #F58787;
   cursor: pointer; }
+
+section.project-wrap {
+  max-width: 1340px;
+  margin: 0 auto; }
+
+div.images {
+  margin: 10%; }
+
+div.images h2 {
+  text-align: center;
+  font-size: 2.5em; }
+
+#careday-body {
+  background-color: #000; }
+
+#about-us {
+  color: #fff;
+  text-align: left; }
+
+#careday-footer {
+  text-align: center; }
+
+#careday-footer a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #000;
+  margin-bottom: 2em;
+  background: #fff;
+  padding: .5em; }
 
 @media (max-width: 1350px) {
   .grid .col-1-3 {
