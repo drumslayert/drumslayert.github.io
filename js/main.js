@@ -12,7 +12,6 @@ $("#my-button, .my-button").click(function() {
         scrollTop: $("#portfolio").offset().top},
         1000);
 });
-
 //backup google fonts
 WebFontConfig = {
   google: { families: [ 'Lato:400,100,300,700,900:latin' ] }
@@ -27,11 +26,14 @@ WebFontConfig = {
   s.parentNode.insertBefore(wf, s);
 })();
 
+
 //click images to see larger view
 jQuery.fn.center = function () {
+  if ( $(window).width() > 1200) {
 this.css("bottom","15%");
 this.css("left","20%");
 return this;
+}
 }
 
 $(document).ready(function() {
