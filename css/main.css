@@ -617,10 +617,11 @@ img {
   border-bottom: 7px #fff solid; }
 
 #thumbnail a {
-  color: #fff; }
+  color: #fff;
+  display: block; }
 
 #thumbnail a:hover {
-  color: #fff; }
+  color: #2098d1; }
 
 #large {
   display: none;
