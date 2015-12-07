@@ -9,7 +9,7 @@
 
 $("#my-button, .my-button").click(function() {
     $('html,body').animate({
-        scrollTop: $("#footer").offset().top},
+        scrollTop: $("#portfolio").offset().top},
         1000);
 });
 
