@@ -614,8 +614,7 @@ img {
 #thumbnail img {
   cursor: pointer;
   border: 2px #fff solid;
-  border-bottom: 7px #fff solid;
-  width: 95%; }
+  border-bottom: 7px #fff solid; }
 
 #thumbnail a {
   color: #fff; }
