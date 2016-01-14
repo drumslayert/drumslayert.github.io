@@ -540,6 +540,15 @@ header {
     header .wrap #header a:hover {
       color: #2098d1; }
 
+.careday-top {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4em;
+  width: 50%;
+  font-size: 1.5em; }
+  .careday-top ul li {
+    text-align: left; }
+
 .main-container {
   min-width: 100%;
   margin: 0 auto; }
